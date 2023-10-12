@@ -6,18 +6,19 @@
 
 h1 {
 	margin-top: 5rem;
-	margin-bottom: 2rem;
+	margin-bottom: 3rem;
 	font-size: 5rem;
 }
 
 #container {
 	display: flex;
-	margin: auto;
+	/* margin: auto; */
+	margin-bottom: 3rem;
 	justify-content: center;
 	font-size: 2rem;
 }
 
-button {
+#container > button {
 	width: 6rem;
 	border-radius: 10px;
 	background-color: rgb(172, 167, 167);
@@ -29,7 +30,7 @@ button {
 	border: none;
 }
 
-button:hover {
+#container > button:hover {
 	background-color: white;
 	color: rgb(172, 167, 167);
 	border: 1px solid rgb(172, 167, 167);
@@ -42,4 +43,13 @@ button:hover {
 	margin: 0 1rem;
 	font-size: 3rem;
 	width: 6rem;
+}
+
+#options > button {
+	border: 1px solid black;
+	border-radius: 5px;
+	background-color: rgb(231, 231, 231);
+	padding: 1rem;
+	font-size: 1rem;
+	margin: 1rem;
 }
